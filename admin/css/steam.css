@@ -1,0 +1,281 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Kaisei+Tokumin:wght@400;500;700&family=Nunito&family=Poppins:wght@300;400;500&display=swap');
+
+/* -----------------* properties -----------------*/
+
+  .breadcrumb{
+    --bs-breadcrumb-divider-color: white !important;
+  }
+
+a{ text-decoration: none !important; } 
+
+input, input:focus, textarea:focus, select{
+    outline: none !important;
+    box-shadow: none !important;
+    }
+
+/* -----------------* properties -----------------*/
+
+.pot{ background: #000 !important; }
+
+/* --------------- navbar ----------------- */
+
+.navbar-brand{ font-family: 'Poppins', sans-serif; }
+
+.headingMain{
+    /* font-family: 'Kaisei Tokumin', serif; */
+    font-family: 'Arapey', serif;
+    /* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Kaisei Tokumin', serif; */
+}
+
+#myheader{
+    transition: 0.7s;
+    padding-top: 5rem ;
+    padding-bottom: 4rem;
+}
+.mastmasterhead a:hover{
+    transform: scale(1.2);
+    transition: 1s ease;
+    color: black !important;
+    font-weight: bold !important;
+    background: #f1f1f1 !important;
+}
+
+.sticky{
+    background: transparent !important;
+    background-image: linear-gradient(to right, #DECBA4, #3E5151) !important;
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    border-bottom: 2px solid #04796f;
+}
+
+.nav-link{
+    letter-spacing: 4;
+    font-family: 'Kaisei Tokumin', serif;
+}
+
+
+.mastmasterhead{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%,
+                rgba(0, 0, 0, 0.7) 75%, #000 100%), 
+                url("../assests/img/fog.jpg");
+    min-height: 40rem;
+}
+
+.subheader{
+    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.7) 75%, #000 100%),  url("../assests/img/lightbuld.jpg");
+    min-height: 14rem;
+    
+}
+
+
+.mastmasterhead , .subheader {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0 5rem 0rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+.subheader nav ol{
+    padding-top: 10rem;
+}
+
+/* the login form */
+
+.cznn { background: linear-gradient(#141e30, #243b55); }
+
+.czzn1{ background: #2e2e1f; }
+
+#recruiter_form{ display: block; }
+
+#candidate_form{ display: none; }
+
+.form-login input{ border: 1px solid #ffc107; }
+
+.form-login input:focus{
+    border: 1px solid #ffc107 !important;
+    border-right: 3px solid white !important;
+    border-radius: 0%;
+    border-left: none !important;
+    background: transparent;
+}
+.form-login input::placeholder{
+    color: #fff;
+    text-transform: lowercase;
+}
+
+.signup-form{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%,
+                rgba(0, 0, 0, 0.7) 75%,
+                #000 100%),
+                url("../assests/img/woooden-chest.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.login_sidebar{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%,
+                rgba(0, 0, 0, 0.7) 75%,
+                #000 100%),
+                url("../assests/img/sea.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+/* the sign up page */
+
+.signup-form input{
+    background: #222222;
+    color: #F1F1F1;
+    border-radius: 0%;
+    border: transparent;
+}
+.signup-form input:focus{
+    background: #222222;
+    border-right: 3px solid white !important;
+    color: #fff;
+}
+.signup-form label{
+    color: #ffffffd3;
+    font-weight: bold;
+}
+
+.signup-form input::placeholder{
+    color: #ffffff9c !important;
+    text-transform: lowercase;
+}
+
+.signup-form form button:hover{
+    background: #245424 !important;
+    border: 1px solid #0000002c !important;
+}
+
+/* the end of the sign up page */
+
+
+/* logged in page */
+
+.user-sidebar li a{
+    color: rgb(155, 155, 155); 
+    background: transparent;
+    padding: 0.5rem 2rem 0.5rem 1rem;
+    border-radius: 0.2rem;
+    transition:all 0.2s ease;
+    letter-spacing: 1 !important;
+}
+.user-sidebar li a:hover{
+    color: rgba(255, 255, 255, 0.795);; 
+    background: #0000005e;
+    font-weight: bold;
+    border-radius: 0.2rem;
+}
+
+.resume_form input, .resume_form textarea, .resume_form select{
+    border-radius: 0%;
+    background: #fff;
+    border: 1px solid black;
+    width: 100%;
+    color: #000;
+}
+.resume_form input:focus{
+    border: 1px solid blue;
+    border-radius: 0%;
+}
+
+.resume_form_main{
+    height: 520px;
+    overflow-y: hidden;
+}
+.resume_form_left{
+    height: 100%;
+}
+.resume_form_right{
+    height: 100%;
+    overflow-y: scroll !important;
+}
+
+/* jobs */
+#mainPage{
+    background: #f5f5f0;
+    height: auto;
+}
+
+.joblink:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px !important;
+    transition: all 0.5s ease-out;
+}
+
+/* jobs */
+
+
+
+/* candidate overview page */
+.cv_card_img{
+    border: 0.01rem dashed #01010123 !important;
+    width: auto;
+    height: 250px;
+    overflow: hidden;
+    /* background: #000; */
+}
+
+.cv_card_img:hover{
+    border: 0.01rem dashed blue !important;
+    color: blue !important;
+    font-weight: 600;
+
+}
+
+/* candidate overview */
+.overview_cvimg:hover{
+    transition: 0.5s ease;
+    transform: scaleX(1.4);
+}
+
+/* blog */
+/* blog */
+/* blogpage */
+
+
+/* blogpage */
+
+
+.shadower{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+/* contact page */
+.bg-image {
+    background-image: url('https://cdn.pixabay.com/photo/2016/10/19/18/38/desktop-1753684_960_720.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+    .shadower{
+        width: 95%;
+    }
+}
+
+
+/* footer */
+footer {
+    background-image: linear-gradient(to left, #0a0c0c, #3E5151);
+    }
+/* end of the footer */
