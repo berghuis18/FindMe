@@ -65,7 +65,7 @@ include("$filename1");
                                     <?php 
 
                                     $sql = "SELECT * from jobs where country = '$country' or city = '$city'";
-                                    $query = mysqli_query($conn, $sql);
+                                    $qugitery = mysqli_query($conn, $sql);
 
                                     while ($row = mysqli_fetch_array($query)) {
                                         ?>
